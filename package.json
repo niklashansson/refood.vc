@@ -1,20 +1,20 @@
 {
-  "name": "@finsweet/developer-starter",
-  "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
-  "homepage": "https://github.com/finsweet/developer-starter#readme",
+  "name": "@niklashansson/refood.vc",
+  "version": "1.0.0",
+  "description": "Custom code for refood.vc Webflow website",
+  "homepage": "https://github.com/niklashansson/refood.vc#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
-    "name": "Finsweet",
-    "url": "https://finsweet.com/"
+    "name": "Bloomweb",
+    "url": "https://bloomweb.se"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/niklashansson/refood.vc.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/niklashansson/refood.vc/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -52,7 +52,10 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.39.2"
+    "@finsweet/ts-utils": "^0.39.2",
+    "gsap": "^3.12.2",
+    "split-type": "^0.3.3",
+    "swiper": "^10.2.0"
   },
   "engines": {
     "pnpm": ">=8"
