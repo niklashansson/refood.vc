@@ -38,7 +38,6 @@ export const swiper = function () {
         modules: [Navigation, Manipulation],
         speed: 800,
         loop: false,
-        grabCursor: true,
         spaceBetween: 24,
         centeredSlides: false,
         slidesPerView: 4,
@@ -60,7 +59,7 @@ export const swiper = function () {
           },
           // when window width is >= 992px
           992: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 24,
           },
         },
